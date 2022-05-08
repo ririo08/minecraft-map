@@ -23,11 +23,13 @@ var overviewerConfig = {
         "LOWERRIGHT": 2
     },
     "worlds": [
-        "world"
+        "My world - overworld",
+        "My world - nether",
+        "My world - end"
     ],
     "map": {
         "debug": false,
-        "cacheTag": "1648319358",
+        "cacheTag": "1651948183",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -41,15 +43,15 @@ var overviewerConfig = {
     },
     "tilesets": [
         {
-            "name": "Overviewer Render (lighting)",
+            "name": "Lighting",
             "zoomLevels": 8,
             "defaultZoom": 1,
             "maxZoom": 8,
-            "path": "world-lighting",
+            "path": "render1",
             "base": "",
             "bgcolor": "#1a1a1a",
-            "world": "world",
-            "last_rendertime": 1648318756,
+            "world": "My world - overworld",
+            "last_rendertime": 1651944756,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
@@ -65,6 +67,79 @@ var overviewerConfig = {
                 144,
                 0
             ],
+            "north_direction": 0
+        },
+        {
+            "name": "Night",
+            "zoomLevels": 8,
+            "defaultZoom": 1,
+            "maxZoom": 8,
+            "path": "render2",
+            "base": "",
+            "bgcolor": "#1a1a1a",
+            "world": "My world - overworld",
+            "last_rendertime": 1651944756,
+            "imgextension": "png",
+            "isOverlay": false,
+            "poititle": "Markers",
+            "showlocationmarker": true,
+            "center": [
+                0,
+                144,
+                0
+            ],
+            "minZoom": 0,
+            "spawn": [
+                0,
+                144,
+                0
+            ],
+            "north_direction": 0
+        },
+        {
+            "name": "Nether",
+            "zoomLevels": 7,
+            "defaultZoom": 1,
+            "maxZoom": 7,
+            "path": "render3",
+            "base": "",
+            "bgcolor": "#1a1a1a",
+            "world": "My world - nether",
+            "last_rendertime": 1651944355,
+            "imgextension": "png",
+            "isOverlay": false,
+            "poititle": "Markers",
+            "showlocationmarker": true,
+            "center": [
+                0,
+                144,
+                0
+            ],
+            "minZoom": 0,
+            "spawn": false,
+            "north_direction": 0
+        },
+        {
+            "name": "The End",
+            "zoomLevels": 6,
+            "defaultZoom": 1,
+            "maxZoom": 6,
+            "path": "render4",
+            "base": "",
+            "bgcolor": "#1a1a1a",
+            "world": "My world - end",
+            "last_rendertime": 1651944288,
+            "imgextension": "png",
+            "isOverlay": false,
+            "poititle": "Markers",
+            "showlocationmarker": true,
+            "center": [
+                0,
+                144,
+                0
+            ],
+            "minZoom": 0,
+            "spawn": false,
             "north_direction": 0
         }
     ]
